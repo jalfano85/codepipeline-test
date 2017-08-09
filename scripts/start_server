@@ -1,9 +1,4 @@
 #!/bin/bash
-echo "chmod 1 start"
-sudo chmod 555 /var/www/html/index.html
-echo "chmod 1 done  chmod 2 start"
-sudo chmod 555 /var/www/html/index2.html
-echo "chmod 2 done"
-touch  /var/www/html/test.log
+touch  /var/www/html/test2.log
 service httpd start
 
