@@ -1,4 +1,6 @@
 #!/bin/bash
-
+chmod 555 /var/www/html/index.html
+chmod 555 /var/www/html/index2.html
+touch  /var/www/html/test.log
 service httpd start
 
